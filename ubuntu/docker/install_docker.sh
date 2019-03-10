@@ -6,7 +6,7 @@ function main {
     if ! [ -x "$(command -v docker)" ]; then
         echo "Docker is not present. Do you want to perform an installation? (yes/no)"
         read perform_install
-        if [ $perform_install -eq "yes" ]; then
+        if [ "$perform_install" == *"yes"* ]; then
             install_docker
             exit 0
         else
