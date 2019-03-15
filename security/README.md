@@ -7,3 +7,8 @@ Snow
 Huntress
 ELK
 Cisco AMP
+Snort
+Suricata
+Sophos
+Webroot
+Pi-hole
