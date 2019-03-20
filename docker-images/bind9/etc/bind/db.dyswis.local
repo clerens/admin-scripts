@@ -1,0 +1,19 @@
+@       IN      SOA     ns1.dyswis.local.       postmaster.dyswis.local. (
+        2726428884      ; Serial
+                1D      ; Refresh
+                1H      ; Retry
+                1W      ; Expire
+                3H )    ; Negative Cache TTL
+
+@               IN      NS      ns1.dyswis.local.
+                IN      NS      ns2.dyswis.local.
+
+@                   IN                A                    192.168.1.131
+
+hostname            IN                A                    192.168.1.131
+
+ns1                 IN                A                    192.168.1.131
+
+
+; Sous-domaines - Serveur web
+www                 IN                CNAME                192.168.1.131

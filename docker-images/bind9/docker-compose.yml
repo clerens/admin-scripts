@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  dns-master:
+    container_name: dns-master
+    build:
+      context: .
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+    volumes:
+      - ${ETC_BIND_PATH}:/etc/bind
+      - ${LOGS_PATH}:/var/bind
+      - /etc/localtime:/etc/localtime:ro

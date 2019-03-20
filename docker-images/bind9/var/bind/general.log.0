@@ -1,0 +1,8 @@
+12-Mar-2019 21:50:09.853 zoneload: info: managed-keys-zone: loaded serial 0
+12-Mar-2019 21:50:09.865 general: notice: all zones loaded
+12-Mar-2019 21:50:09.865 general: notice: running
+12-Mar-2019 21:50:44.413 general: info: shutting down
+12-Mar-2019 21:50:44.413 general: notice: stopping command channel on 127.0.0.1#953
+12-Mar-2019 21:50:44.414 network: info: no longer listening on 127.0.0.1#53
+12-Mar-2019 21:50:44.414 network: info: no longer listening on 172.24.0.2#53
+12-Mar-2019 21:50:44.425 general: notice: exiting
