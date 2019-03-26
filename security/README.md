@@ -30,3 +30,7 @@ Vulnerability scanners and security asset managers. Part of security operations 
 
 Anti-malware sandboxes. This technology represents another key pivot point for understanding targeted attacks that may use zero-day malware. Sandboxes from FireEye, Fidelis and Trend Micro are definitely part of SOAPA. 
 Threat intelligence. Enterprise organizations want to compare internal network anomalies with malicious “in-the-wild” activities, so SOAPA extends to threat intelligence sources and platforms (i.e. BrightPoint (ServiceNow), FireEye/iSight Partners, RecordedFuture, ThreatConnect, ThreatQuotient, etc.).
+
+ToDo
+
+* Console timeout
