@@ -1,5 +1,6 @@
 # Applications à tester
 
+Darktrace
 Splunk
 OSSIM
 OSSEC
